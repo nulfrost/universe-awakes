@@ -1,0 +1,1021 @@
+[
+  {
+    "weaponType": "bow",
+    "skillAwakes": [
+      {
+        "id": "563",
+        "icon": "https://api.flyff.com/image/skill/colored/ragbowicearr.png",
+        "level": 60,
+        "name": "Ice Arrow",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "1234",
+        "icon": "https://api.flyff.com/image/skill/colored/acrbowauto.png",
+        "level": 45,
+        "name": "Auto Shot",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "1526",
+        "icon": "https://api.flyff.com/image/skill/colored/acrbowjunkbo.png",
+        "level": 15,
+        "name": "Junk Arrow",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "4058",
+        "icon": "https://api.flyff.com/image/skill/colored/acrbowrain.png",
+        "level": 50,
+        "name": "Arrow Rain",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "4978",
+        "icon": "https://api.flyff.com/image/skill/colored/ragbowtriple.png",
+        "level": 80,
+        "name": "Triple shot",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "6157",
+        "icon": "https://api.flyff.com/image/skill/colored/ragbowpoison.png",
+        "level": 60,
+        "name": "Poison Arrow",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "6216",
+        "icon": "https://api.flyff.com/image/skill/colored/ragbowflamea.png",
+        "level": 60,
+        "name": "Flame Arrow",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "6910",
+        "icon": "https://api.flyff.com/image/skill/colored/acrbowaimeds.png",
+        "level": 35,
+        "name": "Aimed Shot",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "8094",
+        "icon": "https://api.flyff.com/image/skill/colored/ragbowpierci.png",
+        "level": 70,
+        "name": "Piercing Arrow",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "8510",
+        "icon": "https://api.flyff.com/image/skill/colored/ragbowsltaro.png",
+        "level": 75,
+        "name": "Silent Arrow",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "8916",
+        "icon": "https://api.flyff.com/image/skill/colored/acrbowsilent.png",
+        "level": 35,
+        "name": "Silent Shot",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      }
+    ]
+  },
+  {
+    "weaponType": "yoyo",
+    "skillAwakes": [
+      {
+        "id": "146",
+        "icon": "https://api.flyff.com/image/skill/colored/acryoydeadly.png",
+        "level": 40,
+        "name": "Deadly swing",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "2554",
+        "icon": "https://api.flyff.com/image/skill/colored/acryoysnitch.png",
+        "level": 35,
+        "name": "Snatch",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "3268",
+        "icon": "https://api.flyff.com/image/skill/colored/acryoycross.png",
+        "level": 35,
+        "name": "Cross Line",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "5162",
+        "icon": "https://api.flyff.com/image/skill/colored/jstsupvatals.png",
+        "level": 80,
+        "name": "Vital Stab",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "7023",
+        "icon": "https://api.flyff.com/image/skill/colored/jstyoybackst.png",
+        "level": 60,
+        "name": "Multi-Stab",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "7156",
+        "icon": "https://api.flyff.com/image/skill/colored/jstyoypenya.png",
+        "level": 75,
+        "name": "Hit of Penya",
+        "probabilities": {
+          "uncommon": [2, 3, 4, 5, 6, 7],
+          "rare": [2, 3, 4, 5, 6, 7, 8, 9],
+          "unique": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        }
+      },
+      {
+        "id": "7414",
+        "icon": "https://api.flyff.com/image/skill/colored/acryoyslowst.png",
+        "level": 15,
+        "name": "Slow Step",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      }
+    ]
+  },
+  {
+    "weaponType": "stick",
+    "skillAwakes": [
+      {
+        "id": "8203",
+        "icon": "https://api.flyff.com/image/skill/colored/asschemoonbeam.png",
+        "level": 15,
+        "name": "Moon Beam",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "8275",
+        "icon": "https://api.flyff.com/image/skill/colored/rinsupanzelr.png",
+        "level": 60,
+        "name": "Merkaba Hanzelrusha",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      }
+    ]
+  },
+  {
+    "weaponType": "knuckle",
+    "skillAwakes": [
+      {
+        "id": "447",
+        "icon": "https://api.flyff.com/image/skill/colored/bilgvurtialbold.png",
+        "level": 70,
+        "name": "Bgvur Tialbold",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "1432",
+        "icon": "https://api.flyff.com/image/skill/colored/bilpiercingserpent.png",
+        "level": 60,
+        "name": "Piercing Serpent",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "2615",
+        "icon": "https://api.flyff.com/image/skill/colored/assknutampin.png",
+        "level": 15,
+        "name": "Temping Hole",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "3228",
+        "icon": "https://api.flyff.com/image/skill/colored/bilbaraqijalesna.png",
+        "level": 65,
+        "name": "Baraqijal Esna",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "3840",
+        "icon": "https://api.flyff.com/image/skill/colored/bilsonichand.png",
+        "level": 75,
+        "name": "Sonichand",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "4448",
+        "icon": "https://api.flyff.com/image/skill/colored/bilbelialsmeshing.png",
+        "level": 65,
+        "name": "Belial Smashing",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "5041",
+        "icon": "https://api.flyff.com/image/skill/colored/bilasalraalaikum.png",
+        "level": 80,
+        "name": "Asalraalaikum",
+        "probabilities": {
+          "uncommon": [2, 3, 4, 5, 6, 7],
+          "rare": [2, 3, 4, 5, 6, 7, 8, 9],
+          "unique": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        }
+      },
+      {
+        "id": "6451",
+        "icon": "https://api.flyff.com/image/skill/colored/assknupowerf.png",
+        "level": 45,
+        "name": "Power Fist",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "7773",
+        "icon": "https://api.flyff.com/image/skill/colored/assknuburstc.png",
+        "level": 28,
+        "name": "Burst Crack",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "8813",
+        "icon": "https://api.flyff.com/image/skill/colored/bilbloodfist.png",
+        "level": 70,
+        "name": "Blood Fist",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      }
+    ]
+  },
+  {
+    "weaponType": "swordoraxe",
+    "skillAwakes": [
+      {
+        "id": "51",
+        "icon": "https://api.flyff.com/image/skill/colored/blddblsonbld.png",
+        "level": 70,
+        "name": "Sonic Blade",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "226",
+        "icon": "https://api.flyff.com/image/skill/colored/meronekeenwh.png",
+        "level": 15,
+        "name": "Keenwheel",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "571",
+        "icon": "https://api.flyff.com/image/skill/colored/meronebloody.png",
+        "level": 20,
+        "name": "Bloody Strike",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "630",
+        "icon": "https://api.flyff.com/image/skill/colored/meronesphit.png",
+        "level": 30,
+        "name": "Special Hit",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "1947",
+        "icon": "https://api.flyff.com/image/skill/colored/meronereflex.png",
+        "level": 25,
+        "name": "Reflex Hit",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "1986",
+        "icon": "https://api.flyff.com/image/skill/colored/meronesplmas.png",
+        "level": 15,
+        "name": "Slash",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "2418",
+        "icon": "https://api.flyff.com/image/skill/colored/meroneblinds.png",
+        "level": 25,
+        "name": "Blindside",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "2564",
+        "icon": "https://api.flyff.com/image/skill/colored/knttaxpaidea.png",
+        "level": 60,
+        "name": "Pain Dealer",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "2869",
+        "icon": "https://api.flyff.com/image/skill/colored/knttswethdvd.png",
+        "level": 65,
+        "name": "Earth Divider",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "2911",
+        "icon": "https://api.flyff.com/image/skill/colored/knttswcharge.png",
+        "level": 60,
+        "name": "Charge",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "3399",
+        "icon": "https://api.flyff.com/image/skill/colored/blddswsilent.png",
+        "level": 60,
+        "name": "Silent Strike",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "3518",
+        "icon": "https://api.flyff.com/image/skill/colored/meroneguillo.png",
+        "level": 35,
+        "name": "Guillotine",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "4088",
+        "icon": "https://api.flyff.com/image/skill/colored/vagoneovercu.png",
+        "level": 10,
+        "name": "Over Cutter",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "4311",
+        "icon": "https://api.flyff.com/image/skill/colored/blddswblddan.png",
+        "level": 65,
+        "name": "Blade Dance",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "5559",
+        "icon": "https://api.flyff.com/image/skill/colored/knttwopwswng.png",
+        "level": 75,
+        "name": "Power Swing",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "6488",
+        "icon": "https://api.flyff.com/image/skill/colored/mershiebash.png",
+        "level": 25,
+        "name": "Shield Bash",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "7208",
+        "icon": "https://api.flyff.com/image/skill/colored/lordkgrandrage.png",
+        "level": 65,
+        "name": "Grand Rage",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "7224",
+        "icon": "https://api.flyff.com/image/skill/colored/blddaxhawatt.png",
+        "level": 65,
+        "name": "Hawk Attack",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "8102",
+        "icon": "https://api.flyff.com/image/skill/colored/vagonebrandi.png",
+        "level": 5,
+        "name": "Flurry",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "8348",
+        "icon": "https://api.flyff.com/image/skill/colored/blddblcross.png",
+        "level": 75,
+        "name": "Cross Strike",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "8890",
+        "icon": "https://api.flyff.com/image/skill/colored/knttaxpwstum.png",
+        "level": 65,
+        "name": "Power Stomp",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "9538",
+        "icon": "https://api.flyff.com/image/skill/colored/blddaxspring.png",
+        "level": 60,
+        "name": "Spring Attack",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "9660",
+        "icon": "https://api.flyff.com/image/skill/colored/vagonecleanh.png",
+        "level": 3,
+        "name": "Clean Hit",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "9740",
+        "icon": "https://api.flyff.com/image/skill/colored/blddblarmpen.png",
+        "level": 62,
+        "name": "Armor Penetrate",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      }
+    ]
+  },
+  {
+    "weaponType": "staff",
+    "skillAwakes": [
+      {
+        "id": "835",
+        "icon": "https://api.flyff.com/image/skill/colored/elemulmeteos.png",
+        "level": 70,
+        "name": "Meteo Shower",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "935",
+        "icon": "https://api.flyff.com/image/skill/colored/eleearstnspr.png",
+        "level": 60,
+        "name": "Stone Spear",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "3623",
+        "icon": "https://api.flyff.com/image/skill/colored/elewinvoid.png",
+        "level": 60,
+        "name": "Void",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "3685",
+        "icon": "https://api.flyff.com/image/skill/colored/elemulsanstm.png",
+        "level": 70,
+        "name": "Sandstorm",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "3956",
+        "icon": "https://api.flyff.com/image/skill/colored/elefirfirbrd.png",
+        "level": 60,
+        "name": "Firebird",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "5171",
+        "icon": "https://api.flyff.com/image/skill/colored/eleeleeleshk.png",
+        "level": 65,
+        "name": "Electric Shock",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "6390",
+        "icon": "https://api.flyff.com/image/skill/colored/elewinwinfil.png",
+        "level": 65,
+        "name": "Windfield",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "6741",
+        "icon": "https://api.flyff.com/image/skill/colored/elefirbunfil.png",
+        "level": 65,
+        "name": "Burningfield",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "6808",
+        "icon": "https://api.flyff.com/image/skill/colored/eleelethunst.png",
+        "level": 60,
+        "name": "Lightning Strike",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "7080",
+        "icon": "https://api.flyff.com/image/skill/colored/elemullgtstm.png",
+        "level": 70,
+        "name": "Lightning Storm",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "7701",
+        "icon": "https://api.flyff.com/image/skill/colored/elemulavalan.png",
+        "level": 75,
+        "name": "Blizzard",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "8059",
+        "icon": "https://api.flyff.com/image/skill/colored/eleearearsqk.png",
+        "level": 65,
+        "name": "Earthquake",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "9293",
+        "icon": "https://api.flyff.com/image/skill/colored/elewaticeshk.png",
+        "level": 60,
+        "name": "Iceshark",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "9628",
+        "icon": "https://api.flyff.com/image/skill/colored/elewatpoicld.png",
+        "level": 65,
+        "name": "Poison Cloud",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      }
+    ]
+  },
+  {
+    "weaponType": "wandorstaff",
+    "skillAwakes": [
+      {
+        "id": "527",
+        "icon": "https://api.flyff.com/image/skill/colored/magwindcutter.png",
+        "level": 40,
+        "name": "Wind Cutter",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "997",
+        "icon": "https://api.flyff.com/image/skill/colored/magrockcrash.png",
+        "level": 40,
+        "name": "Rock Crash",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "1515",
+        "icon": "https://api.flyff.com/image/skill/colored/magwaticemis.png",
+        "level": 20,
+        "name": "Ice Missile",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "1783",
+        "icon": "https://api.flyff.com/image/skill/colored/magwindstrong.png",
+        "level": 25,
+        "name": "Strongwind",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "2619",
+        "icon": "https://api.flyff.com/image/skill/colored/magwaterball.png",
+        "level": 25,
+        "name": "Waterball",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "2704",
+        "icon": "https://api.flyff.com/image/skill/colored/magelelgtbal.png",
+        "level": 18,
+        "name": "Lightning Ball",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "3177",
+        "icon": "https://api.flyff.com/image/skill/colored/maglightshock.png",
+        "level": 40,
+        "name": "Lightning Shock",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "3592",
+        "icon": "https://api.flyff.com/image/skill/colored/magfireboomer.png",
+        "level": 18,
+        "name": "Flame Ball",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "3754",
+        "icon": "https://api.flyff.com/image/skill/colored/maglightpalm.png",
+        "level": 25,
+        "name": "Lightning Ram",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "3974",
+        "icon": "https://api.flyff.com/image/skill/colored/magfirestrike.png",
+        "level": 40,
+        "name": "Fire Strike",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "4720",
+        "icon": "https://api.flyff.com/image/skill/colored/magspringwater.png",
+        "level": 40,
+        "name": "Water Well",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "4729",
+        "icon": "https://api.flyff.com/image/skill/colored/magmagmental.png",
+        "level": 15,
+        "name": "Mental Strike",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "5458",
+        "icon": "https://api.flyff.com/image/skill/colored/magspekestone.png",
+        "level": 18,
+        "name": "Stone Spike",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "5637",
+        "icon": "https://api.flyff.com/image/skill/colored/magfirehotair.png",
+        "level": 25,
+        "name": "Flame Geyser",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "8946",
+        "icon": "https://api.flyff.com/image/skill/colored/magwindswordw.png",
+        "level": 20,
+        "name": "Swordwind",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      }
+    ]
+  },
+  {
+    "weaponType": "wand",
+    "skillAwakes": [
+      {
+        "id": "6026",
+        "icon": "https://api.flyff.com/image/skill/colored/psymaxcrisis.png",
+        "level": 65,
+        "name": "Maximum Crisis",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "6206",
+        "icon": "https://api.flyff.com/image/skill/colored/psyspirits.png",
+        "level": 65,
+        "name": "Spirit Bomb",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "7175",
+        "icon": "https://api.flyff.com/image/skill/colored/psypsybomb.png",
+        "level": 60,
+        "name": "Psychic Bomb",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "8140",
+        "icon": "https://api.flyff.com/image/skill/colored/psypsywall.png",
+        "level": 70,
+        "name": "Psychic Wall",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "8191",
+        "icon": "https://api.flyff.com/image/skill/colored/psydnolgy.png",
+        "level": 60,
+        "name": "Demonology",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      },
+      {
+        "id": "8356",
+        "icon": "https://api.flyff.com/image/skill/colored/psypsysquare.png",
+        "level": 75,
+        "name": "Psychic Square",
+        "probabilities": {
+          "uncommon": [5, 7, 9, 11, 13, 15],
+          "rare": [5, 7, 9, 11, 13, 15, 17, 19],
+          "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      }
+    ]
+  }
+]
