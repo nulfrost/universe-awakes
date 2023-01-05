@@ -1,5 +1,6 @@
 import { ActionArgs, json, LoaderArgs } from "@remix-run/node";
-import { useLoaderData } from "@remix-run/react";
+import { NavLink, useLoaderData } from "@remix-run/react";
+import { useEffect } from "react";
 import awakes from "~/data/awake.json";
 
 export function loader({ request }: LoaderArgs) {
@@ -14,6 +15,7 @@ export function loader({ request }: LoaderArgs) {
     // ?.skillAwakes.filter((skill) =>
     //   skill.name.toLowerCase().includes(query.toLowerCase())
     // ),
+    weaponType: new URL(request.url).search,
   });
 }
 
@@ -23,7 +25,47 @@ export function action({ params, request }: ActionArgs) {
 }
 
 export default function Index() {
-  const { awakes } = useLoaderData<typeof loader>();
+  const { awakes, weaponType } = useLoaderData<typeof loader>();
 
-  return <p>test</p>;
+  useEffect(() => {
+    console.log(window.location.pathname);
+  }, []);
+
+  return (
+    <>
+      <h1 className="font-bold text-xl text-center pt-4 mb-4">
+        Flyff Universe Awakes
+      </h1>
+      <nav>
+        <ul className="flex flex-wrap justify-center gap-2">
+          {[
+            { label: "all", href: "/" },
+            { label: "bow", href: "?weaponType=bow" },
+            { label: "wand", href: "?weaponType=wand" },
+            { label: "wand and staves", href: "?weaponType=wandorstaff" },
+            { label: "staff", href: "?weaponType=staff" },
+            { label: "swords and axes", href: "?weaponType=swordoraxe" },
+            { label: "yoyo", href: "?weaponType=yoyo" },
+            { label: "stick", href: "?weaponType=stick" },
+            { label: "knuckle", href: "?weaponType=knuckle" },
+          ].map((link) => (
+            <li>
+              <NavLink
+                to={`${link.href}`}
+                className={`${
+                  weaponType === link.href
+                    ? " bg-indigo-100 text-indigo-900"
+                    : ""
+                } text-sm px-2 py-1 rounded-sm flex items-center gap-1 text-gray-500`}
+              >
+                <>
+                  <span> {link.label}</span>
+                </>
+              </NavLink>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </>
+  );
 }
