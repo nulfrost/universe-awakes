@@ -1,5 +1,5 @@
-import { ActionArgs, json, LoaderArgs } from "@remix-run/node";
-import { NavLink, useLoaderData } from "@remix-run/react";
+import { json, LoaderArgs } from "@remix-run/node";
+import { NavLink, useLoaderData, useLocation } from "@remix-run/react";
 import { useState } from "react";
 import awakes from "~/data/awake.json";
 
@@ -17,15 +17,12 @@ export function loader({ request }: LoaderArgs) {
   });
 }
 
-export function action({ params, request }: ActionArgs) {
-  console.log(request);
-  return json({});
-}
-
 export default function Index() {
   const { awakes, weaponType } = useLoaderData<typeof loader>();
 
   const [searchQuery, setSearchQuery] = useState("");
+
+  const location = useLocation();
 
   return (
     <>
@@ -33,7 +30,7 @@ export default function Index() {
         Flyff Universe Awakes
       </h1>
       <nav>
-        <ul className="">
+        <ul className="flex md:justify-center mb-4 flex-col md:flex-row">
           {[
             { label: "all", href: "/" },
             { label: "bow", href: "?weaponType=bow" },
@@ -45,14 +42,15 @@ export default function Index() {
             { label: "stick", href: "?weaponType=stick" },
             { label: "knuckle", href: "?weaponType=knuckle" },
           ].map((link) => (
-            <li className="">
+            <li>
               <NavLink
                 to={`${link.href}`}
                 className={`${
-                  weaponType === link.href
+                  weaponType === link.href ||
+                  (link.href === "/" && location.search === "")
                     ? " bg-indigo-100 text-indigo-900"
                     : "text-gray-500"
-                } text-sm rounded-sm`}
+                } text-sm rounded-sm capitalize py-1 px-2 font-bold w-full inline-block text-center md:text-left`}
               >
                 <span> {link.label}</span>
               </NavLink>
@@ -67,7 +65,7 @@ export default function Index() {
         type="text"
         className="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 mb-2 text-sm"
       />
-      <div className=" gap-2 grid md:grid-cols-2 lg:grid-cols-3">
+      <div className=" gap-2 grid md:grid-cols-2 xl:grid-cols-3">
         {awakes
           ?.filter((skill) => skill.name.toLowerCase().includes(searchQuery))
           .map((skill) => (
@@ -106,7 +104,7 @@ function SkillCard(props: SkillCardProps) {
           <p className="text-xs text-gray-500">Level {props.level}</p>
         </div>
       </div>
-      <div className="mt-auto">
+      <div className="mt-auto space-y-2">
         <p className="text-sm">
           <span className="text-amber-900 font-bold">Uncommon:</span>{" "}
           <span className="font-bold">
