@@ -35,9 +35,10 @@ export default function Index() {
             { label: "all", href: "/" },
             { label: "bow", href: "?weaponType=bow" },
             { label: "wand", href: "?weaponType=wand" },
-            { label: "wand and staves", href: "?weaponType=wandorstaff" },
+            { label: "wands and staves", href: "?weaponType=wandorstaff" },
             { label: "staff", href: "?weaponType=staff" },
             { label: "swords and axes", href: "?weaponType=swordoraxe" },
+            { label: "shield", href: "?weaponType=shield" },
             { label: "yoyo", href: "?weaponType=yoyo" },
             { label: "stick", href: "?weaponType=stick" },
             { label: "knuckle", href: "?weaponType=knuckle" },
@@ -117,12 +118,14 @@ function SkillCard(props: SkillCardProps) {
             {props.probabilities.rare.map((prob) => `${prob}%`).join(", ")}
           </span>
         </p>
-        <p className="text-sm">
-          <span className="text-red-600 font-bold">Unique:</span>{" "}
-          <span className="font-bold">
-            {props.probabilities.unique.map((prob) => `${prob}%`).join(", ")}
-          </span>
-        </p>
+        {!props.probabilities.unique.length ? null : (
+          <p className="text-sm">
+            <span className="text-red-600 font-bold">Unique:</span>{" "}
+            <span className="font-bold">
+              {props.probabilities.unique.map((prob) => `${prob}%`).join(", ")}
+            </span>
+          </p>
+        )}
       </div>
     </div>
   );

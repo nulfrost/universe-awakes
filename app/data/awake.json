@@ -3,7 +3,7 @@
     "weaponType": "bow",
     "skillAwakes": [
       {
-        "id": "563",
+        "id": "ca9a36c1-c1aa-47d4-bd8b-d30f9e739f89",
         "icon": "https://api.flyff.com/image/skill/colored/ragbowicearr.png",
         "level": 60,
         "name": "Ice Arrow",
@@ -14,7 +14,7 @@
         }
       },
       {
-        "id": "1234",
+        "id": "551f2900-b707-48ed-8d85-854da3c4b1ef",
         "icon": "https://api.flyff.com/image/skill/colored/acrbowauto.png",
         "level": 45,
         "name": "Auto Shot",
@@ -25,7 +25,7 @@
         }
       },
       {
-        "id": "1526",
+        "id": "c2bbfd7d-f160-4a52-b298-4fc0369c665e",
         "icon": "https://api.flyff.com/image/skill/colored/acrbowjunkbo.png",
         "level": 15,
         "name": "Junk Arrow",
@@ -36,7 +36,7 @@
         }
       },
       {
-        "id": "4058",
+        "id": "710f6e0e-c374-4ac1-b457-db2f976bef67",
         "icon": "https://api.flyff.com/image/skill/colored/acrbowrain.png",
         "level": 50,
         "name": "Arrow Rain",
@@ -47,7 +47,7 @@
         }
       },
       {
-        "id": "4978",
+        "id": "4866fd5b-c2fe-4e3d-90ec-39640357ed41",
         "icon": "https://api.flyff.com/image/skill/colored/ragbowtriple.png",
         "level": 80,
         "name": "Triple shot",
@@ -58,7 +58,7 @@
         }
       },
       {
-        "id": "6157",
+        "id": "f20c4614-1b4a-40f7-92a9-4b4a2c0fac5f",
         "icon": "https://api.flyff.com/image/skill/colored/ragbowpoison.png",
         "level": 60,
         "name": "Poison Arrow",
@@ -69,7 +69,7 @@
         }
       },
       {
-        "id": "6216",
+        "id": "dbaf774e-c9f6-48e1-8b37-d7eae1c71d12",
         "icon": "https://api.flyff.com/image/skill/colored/ragbowflamea.png",
         "level": 60,
         "name": "Flame Arrow",
@@ -80,7 +80,7 @@
         }
       },
       {
-        "id": "6910",
+        "id": "3d31abc8-c15f-4e19-9268-e6946fc97a65",
         "icon": "https://api.flyff.com/image/skill/colored/acrbowaimeds.png",
         "level": 35,
         "name": "Aimed Shot",
@@ -91,7 +91,7 @@
         }
       },
       {
-        "id": "8094",
+        "id": "64b3d425-8e9a-4bfc-8fdc-0e39675834d1",
         "icon": "https://api.flyff.com/image/skill/colored/ragbowpierci.png",
         "level": 70,
         "name": "Piercing Arrow",
@@ -102,7 +102,7 @@
         }
       },
       {
-        "id": "8510",
+        "id": "efbea037-8976-4a17-b4dc-1109307c77f6",
         "icon": "https://api.flyff.com/image/skill/colored/ragbowsltaro.png",
         "level": 75,
         "name": "Silent Arrow",
@@ -113,7 +113,7 @@
         }
       },
       {
-        "id": "8916",
+        "id": "b42cfddc-d2b1-4055-918f-00ef34b6894d",
         "icon": "https://api.flyff.com/image/skill/colored/acrbowsilent.png",
         "level": 35,
         "name": "Silent Shot",
@@ -129,7 +129,7 @@
     "weaponType": "yoyo",
     "skillAwakes": [
       {
-        "id": "146",
+        "id": "0731cee5-3c7f-4381-afc5-baa313926443",
         "icon": "https://api.flyff.com/image/skill/colored/acryoydeadly.png",
         "level": 40,
         "name": "Deadly swing",
@@ -140,7 +140,7 @@
         }
       },
       {
-        "id": "2554",
+        "id": "71bde270-855a-42d1-9f73-41dd53b4c568",
         "icon": "https://api.flyff.com/image/skill/colored/acryoysnitch.png",
         "level": 35,
         "name": "Snatch",
@@ -151,7 +151,7 @@
         }
       },
       {
-        "id": "3268",
+        "id": "d85c0c3e-2a68-4d29-998c-8b49d2032244",
         "icon": "https://api.flyff.com/image/skill/colored/acryoycross.png",
         "level": 35,
         "name": "Cross Line",
@@ -162,7 +162,7 @@
         }
       },
       {
-        "id": "5162",
+        "id": "f991823b-d1e5-4b78-b6f4-968a89f79504",
         "icon": "https://api.flyff.com/image/skill/colored/jstsupvatals.png",
         "level": 80,
         "name": "Vital Stab",
@@ -173,7 +173,7 @@
         }
       },
       {
-        "id": "7023",
+        "id": "49e73444-83d2-4726-9fc2-af3b676a254f",
         "icon": "https://api.flyff.com/image/skill/colored/jstyoybackst.png",
         "level": 60,
         "name": "Multi-Stab",
@@ -184,7 +184,7 @@
         }
       },
       {
-        "id": "7156",
+        "id": "c47f1f86-ccb9-4dbf-b079-6cefbabc547d",
         "icon": "https://api.flyff.com/image/skill/colored/jstyoypenya.png",
         "level": 75,
         "name": "Hit of Penya",
@@ -195,7 +195,7 @@
         }
       },
       {
-        "id": "7414",
+        "id": "adaf8cb8-26cf-4c89-aa56-a3361b4eefc9",
         "icon": "https://api.flyff.com/image/skill/colored/acryoyslowst.png",
         "level": 15,
         "name": "Slow Step",
@@ -211,7 +211,7 @@
     "weaponType": "stick",
     "skillAwakes": [
       {
-        "id": "8203",
+        "id": "248007b5-01ce-44ec-9956-84554c7dbbff",
         "icon": "https://api.flyff.com/image/skill/colored/asschemoonbeam.png",
         "level": 15,
         "name": "Moon Beam",
@@ -222,7 +222,7 @@
         }
       },
       {
-        "id": "8275",
+        "id": "9aa24b4b-bbe1-4d33-9503-fce63d00131b",
         "icon": "https://api.flyff.com/image/skill/colored/rinsupanzelr.png",
         "level": 60,
         "name": "Merkaba Hanzelrusha",
@@ -238,7 +238,7 @@
     "weaponType": "knuckle",
     "skillAwakes": [
       {
-        "id": "447",
+        "id": "1fb74f32-8031-48d8-80c7-69415b5ce787",
         "icon": "https://api.flyff.com/image/skill/colored/bilgvurtialbold.png",
         "level": 70,
         "name": "Bgvur Tialbold",
@@ -249,7 +249,7 @@
         }
       },
       {
-        "id": "1432",
+        "id": "3743f9af-9890-4d6c-a632-16ab7cd2c3e1",
         "icon": "https://api.flyff.com/image/skill/colored/bilpiercingserpent.png",
         "level": 60,
         "name": "Piercing Serpent",
@@ -260,7 +260,7 @@
         }
       },
       {
-        "id": "2615",
+        "id": "62eb79ec-228d-42b2-92c1-74706b9624f7",
         "icon": "https://api.flyff.com/image/skill/colored/assknutampin.png",
         "level": 15,
         "name": "Temping Hole",
@@ -271,7 +271,7 @@
         }
       },
       {
-        "id": "3228",
+        "id": "ac4dc5aa-ce3a-49a7-80a5-7510606fd114",
         "icon": "https://api.flyff.com/image/skill/colored/bilbaraqijalesna.png",
         "level": 65,
         "name": "Baraqijal Esna",
@@ -282,7 +282,7 @@
         }
       },
       {
-        "id": "3840",
+        "id": "0bb842f7-276a-4670-b886-186ebc0277a9",
         "icon": "https://api.flyff.com/image/skill/colored/bilsonichand.png",
         "level": 75,
         "name": "Sonichand",
@@ -293,7 +293,7 @@
         }
       },
       {
-        "id": "4448",
+        "id": "16e01368-7c28-4de0-b567-23dbf882b261",
         "icon": "https://api.flyff.com/image/skill/colored/bilbelialsmeshing.png",
         "level": 65,
         "name": "Belial Smashing",
@@ -304,7 +304,7 @@
         }
       },
       {
-        "id": "5041",
+        "id": "24f5fa27-d192-48de-8b1a-8947e67c9533",
         "icon": "https://api.flyff.com/image/skill/colored/bilasalraalaikum.png",
         "level": 80,
         "name": "Asalraalaikum",
@@ -315,7 +315,7 @@
         }
       },
       {
-        "id": "6451",
+        "id": "8d74c232-f05d-41cf-a2a7-344e605ac235",
         "icon": "https://api.flyff.com/image/skill/colored/assknupowerf.png",
         "level": 45,
         "name": "Power Fist",
@@ -326,7 +326,7 @@
         }
       },
       {
-        "id": "7773",
+        "id": "d74665b3-a05b-4e86-b913-3880d6317ae1",
         "icon": "https://api.flyff.com/image/skill/colored/assknuburstc.png",
         "level": 28,
         "name": "Burst Crack",
@@ -337,7 +337,7 @@
         }
       },
       {
-        "id": "8813",
+        "id": "670d33c3-be6f-4138-bf43-c8e88e66a061",
         "icon": "https://api.flyff.com/image/skill/colored/bilbloodfist.png",
         "level": 70,
         "name": "Blood Fist",
@@ -353,7 +353,7 @@
     "weaponType": "swordoraxe",
     "skillAwakes": [
       {
-        "id": "51",
+        "id": "2c31fa35-f6c0-4ee0-90ec-d1b620c4401e",
         "icon": "https://api.flyff.com/image/skill/colored/blddblsonbld.png",
         "level": 70,
         "name": "Sonic Blade",
@@ -364,7 +364,7 @@
         }
       },
       {
-        "id": "226",
+        "id": "473a295e-6d31-438a-b495-f9283545de34",
         "icon": "https://api.flyff.com/image/skill/colored/meronekeenwh.png",
         "level": 15,
         "name": "Keenwheel",
@@ -375,7 +375,7 @@
         }
       },
       {
-        "id": "571",
+        "id": "e9a6678d-c21e-4aca-a1bd-fa9180b8e871",
         "icon": "https://api.flyff.com/image/skill/colored/meronebloody.png",
         "level": 20,
         "name": "Bloody Strike",
@@ -386,7 +386,7 @@
         }
       },
       {
-        "id": "630",
+        "id": "d14178d0-3841-422b-bab3-5d4a8faac5bf",
         "icon": "https://api.flyff.com/image/skill/colored/meronesphit.png",
         "level": 30,
         "name": "Special Hit",
@@ -397,7 +397,7 @@
         }
       },
       {
-        "id": "1947",
+        "id": "951ae32a-5344-40c5-86dc-9cb2aa5101bf",
         "icon": "https://api.flyff.com/image/skill/colored/meronereflex.png",
         "level": 25,
         "name": "Reflex Hit",
@@ -408,7 +408,7 @@
         }
       },
       {
-        "id": "1986",
+        "id": "24c7854a-4fde-49fc-99c1-01a7e1618304",
         "icon": "https://api.flyff.com/image/skill/colored/meronesplmas.png",
         "level": 15,
         "name": "Slash",
@@ -419,7 +419,7 @@
         }
       },
       {
-        "id": "2418",
+        "id": "7873bfbd-9fbf-419b-857a-9ee80428f6f2",
         "icon": "https://api.flyff.com/image/skill/colored/meroneblinds.png",
         "level": 25,
         "name": "Blindside",
@@ -430,7 +430,7 @@
         }
       },
       {
-        "id": "2564",
+        "id": "d533dddb-a570-4be4-8220-8b92ec942243",
         "icon": "https://api.flyff.com/image/skill/colored/knttaxpaidea.png",
         "level": 60,
         "name": "Pain Dealer",
@@ -441,7 +441,7 @@
         }
       },
       {
-        "id": "2869",
+        "id": "bc78e48f-441c-414e-a1a2-4c988d44b7f6",
         "icon": "https://api.flyff.com/image/skill/colored/knttswethdvd.png",
         "level": 65,
         "name": "Earth Divider",
@@ -452,7 +452,7 @@
         }
       },
       {
-        "id": "2911",
+        "id": "3605cdae-f2bc-4090-8857-fcfaf5f09b57",
         "icon": "https://api.flyff.com/image/skill/colored/knttswcharge.png",
         "level": 60,
         "name": "Charge",
@@ -463,7 +463,7 @@
         }
       },
       {
-        "id": "3399",
+        "id": "d7926f76-73d1-4e83-9656-0680cbb97b16",
         "icon": "https://api.flyff.com/image/skill/colored/blddswsilent.png",
         "level": 60,
         "name": "Silent Strike",
@@ -474,7 +474,7 @@
         }
       },
       {
-        "id": "3518",
+        "id": "92973280-e171-4462-abe2-2fc0eb5adb03",
         "icon": "https://api.flyff.com/image/skill/colored/meroneguillo.png",
         "level": 35,
         "name": "Guillotine",
@@ -485,7 +485,7 @@
         }
       },
       {
-        "id": "4088",
+        "id": "ac31fa2b-940e-45d0-91ee-6042aa917f02",
         "icon": "https://api.flyff.com/image/skill/colored/vagoneovercu.png",
         "level": 10,
         "name": "Over Cutter",
@@ -496,7 +496,7 @@
         }
       },
       {
-        "id": "4311",
+        "id": "e557f728-8cd4-4207-a861-a8c28decd8f5",
         "icon": "https://api.flyff.com/image/skill/colored/blddswblddan.png",
         "level": 65,
         "name": "Blade Dance",
@@ -507,7 +507,7 @@
         }
       },
       {
-        "id": "5559",
+        "id": "6940f9a3-5555-4dc8-8752-71fe506ba16c",
         "icon": "https://api.flyff.com/image/skill/colored/knttwopwswng.png",
         "level": 75,
         "name": "Power Swing",
@@ -518,7 +518,7 @@
         }
       },
       {
-        "id": "6488",
+        "id": "7d57b8db-16f8-4a8f-aa13-e5ed0cab8aea",
         "icon": "https://api.flyff.com/image/skill/colored/mershiebash.png",
         "level": 25,
         "name": "Shield Bash",
@@ -529,7 +529,7 @@
         }
       },
       {
-        "id": "7208",
+        "id": "9410b152-e3d5-40e6-bad4-31f5ac3ba591",
         "icon": "https://api.flyff.com/image/skill/colored/lordkgrandrage.png",
         "level": 65,
         "name": "Grand Rage",
@@ -540,7 +540,7 @@
         }
       },
       {
-        "id": "7224",
+        "id": "24c46b1e-cc43-4847-804a-a5494ecfe3df",
         "icon": "https://api.flyff.com/image/skill/colored/blddaxhawatt.png",
         "level": 65,
         "name": "Hawk Attack",
@@ -551,7 +551,7 @@
         }
       },
       {
-        "id": "8102",
+        "id": "4454d216-3e1c-4042-a0c2-ee8d9f17c2c4",
         "icon": "https://api.flyff.com/image/skill/colored/vagonebrandi.png",
         "level": 5,
         "name": "Flurry",
@@ -562,7 +562,7 @@
         }
       },
       {
-        "id": "8348",
+        "id": "cc8bb4bc-6e5d-4a1b-b0c8-ec0133a041ed",
         "icon": "https://api.flyff.com/image/skill/colored/blddblcross.png",
         "level": 75,
         "name": "Cross Strike",
@@ -573,7 +573,7 @@
         }
       },
       {
-        "id": "8890",
+        "id": "3b855eb7-57a0-42d2-9105-ff881967a736",
         "icon": "https://api.flyff.com/image/skill/colored/knttaxpwstum.png",
         "level": 65,
         "name": "Power Stomp",
@@ -584,7 +584,7 @@
         }
       },
       {
-        "id": "9538",
+        "id": "c333479a-952b-46ae-afe3-2b7ec268b0d0",
         "icon": "https://api.flyff.com/image/skill/colored/blddaxspring.png",
         "level": 60,
         "name": "Spring Attack",
@@ -595,7 +595,7 @@
         }
       },
       {
-        "id": "9660",
+        "id": "d0ff1ce8-13dd-4eb5-8920-459d9d2ad854",
         "icon": "https://api.flyff.com/image/skill/colored/vagonecleanh.png",
         "level": 3,
         "name": "Clean Hit",
@@ -606,7 +606,7 @@
         }
       },
       {
-        "id": "9740",
+        "id": "25f29a97-252e-4bc7-b847-9eafd89c186a",
         "icon": "https://api.flyff.com/image/skill/colored/blddblarmpen.png",
         "level": 62,
         "name": "Armor Penetrate",
@@ -622,7 +622,7 @@
     "weaponType": "staff",
     "skillAwakes": [
       {
-        "id": "835",
+        "id": "c9ef32cd-0f13-48cf-8897-e39e41ed8e61",
         "icon": "https://api.flyff.com/image/skill/colored/elemulmeteos.png",
         "level": 70,
         "name": "Meteo Shower",
@@ -633,7 +633,7 @@
         }
       },
       {
-        "id": "935",
+        "id": "3a276c8f-6fdd-4b55-b023-ca9f2620a0a7",
         "icon": "https://api.flyff.com/image/skill/colored/eleearstnspr.png",
         "level": 60,
         "name": "Stone Spear",
@@ -644,7 +644,7 @@
         }
       },
       {
-        "id": "3623",
+        "id": "7390d3c4-25f5-4330-8e89-bbe892c17d38",
         "icon": "https://api.flyff.com/image/skill/colored/elewinvoid.png",
         "level": 60,
         "name": "Void",
@@ -655,7 +655,7 @@
         }
       },
       {
-        "id": "3685",
+        "id": "2e7e4cda-e130-42ee-8021-963e28696713",
         "icon": "https://api.flyff.com/image/skill/colored/elemulsanstm.png",
         "level": 70,
         "name": "Sandstorm",
@@ -666,7 +666,7 @@
         }
       },
       {
-        "id": "3956",
+        "id": "b2924f90-7d94-4bd3-a616-37570251c75a",
         "icon": "https://api.flyff.com/image/skill/colored/elefirfirbrd.png",
         "level": 60,
         "name": "Firebird",
@@ -677,7 +677,7 @@
         }
       },
       {
-        "id": "5171",
+        "id": "1bc75379-315c-4ba3-9a06-5f17b04b2ec0",
         "icon": "https://api.flyff.com/image/skill/colored/eleeleeleshk.png",
         "level": 65,
         "name": "Electric Shock",
@@ -688,7 +688,7 @@
         }
       },
       {
-        "id": "6390",
+        "id": "b7df2c16-bbef-4a54-a140-efe4863e973e",
         "icon": "https://api.flyff.com/image/skill/colored/elewinwinfil.png",
         "level": 65,
         "name": "Windfield",
@@ -699,7 +699,7 @@
         }
       },
       {
-        "id": "6741",
+        "id": "a5427fc8-93dc-4cf9-a093-d6313b281075",
         "icon": "https://api.flyff.com/image/skill/colored/elefirbunfil.png",
         "level": 65,
         "name": "Burningfield",
@@ -710,7 +710,7 @@
         }
       },
       {
-        "id": "6808",
+        "id": "641cde8e-3cb6-405f-8ace-09ee4a6bc9ce",
         "icon": "https://api.flyff.com/image/skill/colored/eleelethunst.png",
         "level": 60,
         "name": "Lightning Strike",
@@ -721,7 +721,7 @@
         }
       },
       {
-        "id": "7080",
+        "id": "7b3e9fd2-d960-45cf-ac65-cedc0cdeae2e",
         "icon": "https://api.flyff.com/image/skill/colored/elemullgtstm.png",
         "level": 70,
         "name": "Lightning Storm",
@@ -732,7 +732,7 @@
         }
       },
       {
-        "id": "7701",
+        "id": "e0a9ae1b-6721-47e3-9be8-e8d6e3e2f7fd",
         "icon": "https://api.flyff.com/image/skill/colored/elemulavalan.png",
         "level": 75,
         "name": "Blizzard",
@@ -743,7 +743,7 @@
         }
       },
       {
-        "id": "8059",
+        "id": "a9b373aa-c95c-4669-afb6-e46de459694d",
         "icon": "https://api.flyff.com/image/skill/colored/eleearearsqk.png",
         "level": 65,
         "name": "Earthquake",
@@ -754,7 +754,7 @@
         }
       },
       {
-        "id": "9293",
+        "id": "b2971f04-ccbd-4f8b-bcc0-7a6599d27a73",
         "icon": "https://api.flyff.com/image/skill/colored/elewaticeshk.png",
         "level": 60,
         "name": "Iceshark",
@@ -765,7 +765,7 @@
         }
       },
       {
-        "id": "9628",
+        "id": "05ea0be5-8045-4914-a40f-e02b1dbf68cc",
         "icon": "https://api.flyff.com/image/skill/colored/elewatpoicld.png",
         "level": 65,
         "name": "Poison Cloud",
@@ -781,7 +781,7 @@
     "weaponType": "wandorstaff",
     "skillAwakes": [
       {
-        "id": "527",
+        "id": "6dcb69fe-fddd-4c34-be82-6bd6f9b82e9c",
         "icon": "https://api.flyff.com/image/skill/colored/magwindcutter.png",
         "level": 40,
         "name": "Wind Cutter",
@@ -792,7 +792,7 @@
         }
       },
       {
-        "id": "997",
+        "id": "b049771e-1049-40e9-a265-49665289f5cf",
         "icon": "https://api.flyff.com/image/skill/colored/magrockcrash.png",
         "level": 40,
         "name": "Rock Crash",
@@ -803,7 +803,7 @@
         }
       },
       {
-        "id": "1515",
+        "id": "b9e845b6-e3a5-470c-adb8-b978537394f6",
         "icon": "https://api.flyff.com/image/skill/colored/magwaticemis.png",
         "level": 20,
         "name": "Ice Missile",
@@ -814,7 +814,7 @@
         }
       },
       {
-        "id": "1783",
+        "id": "944885f6-9b66-4523-a1b3-12a95c784bd1",
         "icon": "https://api.flyff.com/image/skill/colored/magwindstrong.png",
         "level": 25,
         "name": "Strongwind",
@@ -825,7 +825,7 @@
         }
       },
       {
-        "id": "2619",
+        "id": "f40bc835-9f79-431d-a527-9ca8e5911602",
         "icon": "https://api.flyff.com/image/skill/colored/magwaterball.png",
         "level": 25,
         "name": "Waterball",
@@ -836,7 +836,7 @@
         }
       },
       {
-        "id": "2704",
+        "id": "cd7427f4-a07a-4e40-8f08-b74546ea784c",
         "icon": "https://api.flyff.com/image/skill/colored/magelelgtbal.png",
         "level": 18,
         "name": "Lightning Ball",
@@ -847,7 +847,7 @@
         }
       },
       {
-        "id": "3177",
+        "id": "a5ac366d-c08e-4574-bd76-89098ec948f3",
         "icon": "https://api.flyff.com/image/skill/colored/maglightshock.png",
         "level": 40,
         "name": "Lightning Shock",
@@ -858,7 +858,7 @@
         }
       },
       {
-        "id": "3592",
+        "id": "7a5bf435-a711-405a-ba5f-67754576f86a",
         "icon": "https://api.flyff.com/image/skill/colored/magfireboomer.png",
         "level": 18,
         "name": "Flame Ball",
@@ -869,7 +869,7 @@
         }
       },
       {
-        "id": "3754",
+        "id": "3c7b58cf-2b84-4cbc-b8be-523de48f906b",
         "icon": "https://api.flyff.com/image/skill/colored/maglightpalm.png",
         "level": 25,
         "name": "Lightning Ram",
@@ -880,7 +880,7 @@
         }
       },
       {
-        "id": "3974",
+        "id": "08dfaf91-4de3-4af3-804b-d3364146d616",
         "icon": "https://api.flyff.com/image/skill/colored/magfirestrike.png",
         "level": 40,
         "name": "Fire Strike",
@@ -891,7 +891,7 @@
         }
       },
       {
-        "id": "4720",
+        "id": "0710712d-5ca6-47c9-b1da-59f5d525469d",
         "icon": "https://api.flyff.com/image/skill/colored/magspringwater.png",
         "level": 40,
         "name": "Water Well",
@@ -902,7 +902,7 @@
         }
       },
       {
-        "id": "4729",
+        "id": "c40fd64d-5181-4331-99a7-65c4edbc0533",
         "icon": "https://api.flyff.com/image/skill/colored/magmagmental.png",
         "level": 15,
         "name": "Mental Strike",
@@ -913,7 +913,7 @@
         }
       },
       {
-        "id": "5458",
+        "id": "bc6df120-a975-40bf-8ee0-71a4079fb82e",
         "icon": "https://api.flyff.com/image/skill/colored/magspekestone.png",
         "level": 18,
         "name": "Stone Spike",
@@ -924,7 +924,7 @@
         }
       },
       {
-        "id": "5637",
+        "id": "d82db381-03ad-4c01-ae0b-847312f31283",
         "icon": "https://api.flyff.com/image/skill/colored/magfirehotair.png",
         "level": 25,
         "name": "Flame Geyser",
@@ -935,7 +935,7 @@
         }
       },
       {
-        "id": "8946",
+        "id": "913dad6c-1e6e-45f3-9f22-0ce123c34107",
         "icon": "https://api.flyff.com/image/skill/colored/magwindswordw.png",
         "level": 20,
         "name": "Swordwind",
@@ -951,7 +951,7 @@
     "weaponType": "wand",
     "skillAwakes": [
       {
-        "id": "6026",
+        "id": "9c834d76-a2ec-48df-a849-700160018818",
         "icon": "https://api.flyff.com/image/skill/colored/psymaxcrisis.png",
         "level": 65,
         "name": "Maximum Crisis",
@@ -962,7 +962,7 @@
         }
       },
       {
-        "id": "6206",
+        "id": "0d170077-7ed3-4b62-a0fe-71e93091c983",
         "icon": "https://api.flyff.com/image/skill/colored/psyspirits.png",
         "level": 65,
         "name": "Spirit Bomb",
@@ -973,7 +973,7 @@
         }
       },
       {
-        "id": "7175",
+        "id": "896cad32-859d-4001-be9e-6219d4d45cd2",
         "icon": "https://api.flyff.com/image/skill/colored/psypsybomb.png",
         "level": 60,
         "name": "Psychic Bomb",
@@ -984,7 +984,7 @@
         }
       },
       {
-        "id": "8140",
+        "id": "bd603dfb-0004-4a30-b01f-4a561c4d7e5f",
         "icon": "https://api.flyff.com/image/skill/colored/psypsywall.png",
         "level": 70,
         "name": "Psychic Wall",
@@ -995,7 +995,7 @@
         }
       },
       {
-        "id": "8191",
+        "id": "d8fa985c-4993-4594-b327-688a118f846f",
         "icon": "https://api.flyff.com/image/skill/colored/psydnolgy.png",
         "level": 60,
         "name": "Demonology",
@@ -1006,7 +1006,7 @@
         }
       },
       {
-        "id": "8356",
+        "id": "28d17dcd-7111-4f00-9426-12fb7e3090ad",
         "icon": "https://api.flyff.com/image/skill/colored/psypsysquare.png",
         "level": 75,
         "name": "Psychic Square",
@@ -1014,6 +1014,121 @@
           "uncommon": [5, 7, 9, 11, 13, 15],
           "rare": [5, 7, 9, 11, 13, 15, 17, 19],
           "unique": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+        }
+      }
+    ]
+  },
+  {
+    "weaponType": "shield",
+    "skillAwakes": [
+      {
+        "id": "6b812cac-d09c-449e-9f1f-c56a8352fc03",
+        "icon": "https://api.flyff.com/image/item/armshiazria.png",
+        "level": 1,
+        "name": "block",
+        "probabilities": {
+          "uncommon": [5, 6, 7, 8, 9, 10],
+          "rare": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+          "unique": []
+        }
+      },
+      {
+        "id": "690180c4-d01e-4ad1-8c95-e8038e6c3f24",
+        "icon": "https://api.flyff.com/image/item/armshiazria.png",
+        "level": 1,
+        "name": "reflectdamage",
+        "probabilities": {
+          "uncommon": [5, 6, 7, 8, 9, 10],
+          "rare": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+          "unique": []
+        }
+      },
+      {
+        "id": "732a6363-e319-40b5-8c30-899ad6f36273",
+        "icon": "https://api.flyff.com/image/item/armshiazria.png",
+        "level": 1,
+        "name": "magicdefense",
+        "probabilities": {
+          "uncommon": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+          "rare": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+          "unique": []
+        }
+      },
+      {
+        "id": "205336c9-84a2-474c-9ac5-98bece3112b5",
+        "icon": "https://api.flyff.com/image/item/armshiazria.png",
+        "level": 1,
+        "name": "criticalresist",
+        "probabilities": {
+          "uncommon": [5, 6, 7, 8, 9, 10],
+          "rare": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+          "unique": []
+        }
+      },
+      {
+        "id": "758a2dbf-bf2a-4f11-bb6a-d6ce7d6871aa",
+        "icon": "https://api.flyff.com/image/item/armshiazria.png",
+        "level": 1,
+        "name": "electricitydefense",
+        "probabilities": {
+          "uncommon": [1, 2, 3, 4, 5, 6],
+          "rare": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+          "unique": []
+        }
+      },
+      {
+        "id": "7bfb1179-44f8-44fc-a1f7-4802df5152cb",
+        "icon": "https://api.flyff.com/image/item/armshiazria.png",
+        "level": 1,
+        "name": "firedefense",
+        "probabilities": {
+          "uncommon": [1, 2, 3, 4, 5, 6],
+          "rare": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+          "unique": []
+        }
+      },
+      {
+        "id": "996f2d0b-7342-4b26-b527-2a5b166c3d59",
+        "icon": "https://api.flyff.com/image/item/armshiazria.png",
+        "level": 1,
+        "name": "winddefense",
+        "probabilities": {
+          "uncommon": [1, 2, 3, 4, 5, 6],
+          "rare": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+          "unique": []
+        }
+      },
+      {
+        "id": "3406a967-4010-47b0-9c1d-a757f4e98dbc",
+        "icon": "https://api.flyff.com/image/item/armshiazria.png",
+        "level": 1,
+        "name": "waterdefense",
+        "probabilities": {
+          "uncommon": [1, 2, 3, 4, 5, 6],
+          "rare": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+          "unique": []
+        }
+      },
+      {
+        "id": "06b5bbb7-07b7-4293-85b5-f4c7f65a5cf9",
+        "icon": "https://api.flyff.com/image/item/armshiazria.png",
+        "level": 1,
+        "name": "earthdefense",
+        "probabilities": {
+          "uncommon": [1, 2, 3, 4, 5, 6],
+          "rare": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+          "unique": []
+        }
+      },
+      {
+        "id": "1842bedd-753a-4cb3-ae82-2c8c91c5921a",
+        "icon": "https://api.flyff.com/image/item/armshiazria.png",
+        "level": 1,
+        "name": "bleedandpoisonresist",
+        "probabilities": {
+          "uncommon": [5, 6, 7, 8, 9, 10],
+          "rare": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+          "unique": []
         }
       }
     ]
