@@ -26,7 +26,7 @@ export default function Index() {
 
   return (
     <>
-      <h1 className="font-bold text-xl text-center pt-4 mb-4">
+      <h1 className="font-bold text-xl text-center mb-4">
         Flyff Universe Awakes
       </h1>
       <nav>

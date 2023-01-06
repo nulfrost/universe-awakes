@@ -27,7 +27,7 @@ export default function App() {
         <Links />
       </head>
       <body className="h-full bg-gray-50">
-        <main className="h-full px-4 pb-10">
+        <main className="px-4 py-4">
           <Outlet />
         </main>
         <ScrollRestoration />
