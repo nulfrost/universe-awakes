@@ -102,7 +102,9 @@ function SkillCard(props: SkillCardProps) {
         />
         <div>
           <h2 className="font-bold text-sm">{props.name}</h2>
-          <p className="text-xs text-gray-500">Level {props.level}</p>
+          <p className="text-xs text-gray-500">
+            Minimum weapon level: {props.level}
+          </p>
         </div>
       </div>
       <div className="mt-auto space-y-2">
