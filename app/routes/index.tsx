@@ -1,5 +1,5 @@
 import { json, LoaderArgs } from "@remix-run/node";
-import { NavLink, useLoaderData, useLocation } from "@remix-run/react";
+import { Link, useLoaderData, useLocation } from "@remix-run/react";
 import { useState } from "react";
 import awakes from "~/data/awake.json";
 
@@ -44,7 +44,7 @@ export default function Index() {
             { label: "knuckle", href: "?weaponType=knuckle" },
           ].map((link) => (
             <li>
-              <NavLink
+              <Link
                 to={`${link.href}`}
                 className={`${
                   weaponType === link.href ||
@@ -54,7 +54,7 @@ export default function Index() {
                 } text-sm rounded-sm capitalize py-1 px-2 font-bold w-full inline-block text-center md:text-left`}
               >
                 <span> {link.label}</span>
-              </NavLink>
+              </Link>
             </li>
           ))}
         </ul>
