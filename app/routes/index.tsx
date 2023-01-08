@@ -42,18 +42,18 @@ export default function Index() {
             { label: "yoyo", href: "?weaponType=yoyo" },
             { label: "stick", href: "?weaponType=stick" },
             { label: "knuckle", href: "?weaponType=knuckle" },
-          ].map((link) => (
-            <li>
+          ].map(({ label, href }) => (
+            <li key={JSON.stringify({ label, href })}>
               <Link
-                to={`${link.href}`}
+                to={`${href}`}
                 className={`${
-                  weaponType === link.href ||
-                  (link.href === "/" && location.search === "")
+                  weaponType === href ||
+                  (href === "/" && location.search === "")
                     ? " bg-indigo-100 text-indigo-900"
                     : "text-gray-500"
                 } text-sm rounded-sm capitalize py-1 px-2 font-bold w-full inline-block text-center md:text-left`}
               >
-                <span> {link.label}</span>
+                <span> {label}</span>
               </Link>
             </li>
           ))}
