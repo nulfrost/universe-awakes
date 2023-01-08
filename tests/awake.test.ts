@@ -4,6 +4,14 @@ test.beforeEach(async ({ page }) => {
   await page.goto("/");
 });
 
+test.describe("Functionality", () => {
+  test.skip("Filtering", async ({ page }) => {
+    await page.getByRole("textbox", { name: "Search" }).focus();
+    await page.keyboard.type("Asalraalaikum");
+    expect(page.getByRole("heading", { name: "Asalraalaikum" }));
+  });
+});
+
 test.describe("Testing each awake route", () => {
   test("all", async ({ page }) => {
     expect(page.url()).toBe("http://localhost:3000/");
