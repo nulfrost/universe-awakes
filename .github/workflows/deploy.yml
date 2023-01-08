@@ -1,7 +1,7 @@
-name: Build / Test / Deploy
+name: Test, Build and Deploy
 on:
   push:
-    branches: [main, master]
+    branches: [main]
 jobs:
   test:
     timeout-minutes: 60
@@ -42,10 +42,20 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Publish
-        uses: netlify/actions/cli@master
+      - name: 🚀 Deploy Production
+        if: ${{ github.ref == 'refs/heads/main' }}
+        uses: nwtgck/actions-netlify@v1.2
         with:
-          args: deploy --dir=public --functions=.netlify/functions-internal --prod
+          publish-dir: "./public"
+          production-branch: main
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          deploy-message: "Deploy from GitHub Actions"
+          enable-pull-request-comment: false
+          enable-commit-comment: false
+          overwrites-pull-request-comment: true
+          netlify-config-path: "netlify.toml"
+          functions-dir: "./.netlify/functions-internal"
         env:
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_APP_ID }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_APP_ID }}
+        timeout-minutes: 1
