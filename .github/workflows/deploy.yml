@@ -9,6 +9,9 @@ jobs:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
+      - name: 🛑 Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.9.1
+
       - name: Checkout Repo
         uses: actions/checkout@v3
 
@@ -30,6 +33,9 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
     steps:
+      - name: 🛑 Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.9.1
+
       - name: Checkout Repo
         uses: actions/checkout@v3
 
@@ -44,6 +50,24 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: 🚀 Deploy Dev
+        if: ${{ github.ref == 'refs/heads/dev' }}
+        uses: nwtgck/actions-netlify@v1.2
+        with:
+          publish-dir: "./public"
+          github-token: ${{ secrets.DEPLOY_TOKEN }}
+          deploy-message: "Deploy from GitHub Actions"
+          enable-pull-request-comment: false
+          enable-commit-comment: false
+          github-deployment-environment: staging
+          netlify-config-path: "netlify.toml"
+          github-deployment-environment: staging
+          functions-dir: "./.netlify/functions-internal"
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_APP_ID }}
+        timeout-minutes: 1
+
       - name: 🚀 Deploy Production
         if: ${{ github.ref == 'refs/heads/main' }}
         uses: nwtgck/actions-netlify@v1.2
@@ -56,7 +80,8 @@ jobs:
           enable-commit-comment: false
           overwrites-pull-request-comment: true
           netlify-config-path: "netlify.toml"
-          functions-dir: ".netlify/functions-internal"
+          production-deploy: true
+          functions-dir: "./.netlify/functions-internal"
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_APP_ID }}
