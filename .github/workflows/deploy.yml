@@ -31,13 +31,6 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
 
-      - name: Read app name
-        uses: ashley-taylor/read-json-property-action@v1.0
-        id: site_id
-        with:
-          path: ".netlify/state.json"
-          property: "siteId"
-
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v1.2
         with:
@@ -52,5 +45,5 @@ jobs:
           functions-dir: "./.netlify/functions-internal"
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ steps.site_id.outputs.value }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_APP_ID }}
         timeout-minutes: 1
