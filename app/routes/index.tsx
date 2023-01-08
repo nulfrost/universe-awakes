@@ -26,11 +26,11 @@ export default function Index() {
 
   return (
     <>
-      <h1 className="font-bold text-xl text-center mb-4">
+      <h1 className="mb-4 text-xl font-bold text-center">
         Flyff Universe Awakes
       </h1>
       <nav>
-        <ul className="flex md:justify-center mb-4 flex-col md:flex-row">
+        <ul className="flex flex-col mb-4 md:justify-center md:flex-row">
           {[
             { label: "all", href: "/" },
             { label: "bow", href: "?weaponType=bow" },
@@ -59,18 +59,24 @@ export default function Index() {
           ))}
         </ul>
       </nav>
+      <label htmlFor="search" className="sr-only">
+        Search
+      </label>
       <input
         onChange={(e) => setSearchQuery(e.target.value)}
         autoFocus
+        name="search"
+        id="search"
         placeholder="Search"
+        aria-label="Start typing to filter results"
         type="text"
-        className="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 mb-2 text-sm"
+        className="block w-full mb-2 text-sm border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
       />
-      <div className=" gap-2 grid md:grid-cols-2 xl:grid-cols-3">
+      <div className="grid gap-2 md:grid-cols-2 xl:grid-cols-3">
         {awakes
           ?.filter((skill) => skill.name.toLowerCase().includes(searchQuery))
           .map((skill) => (
-            <SkillCard {...skill} />
+            <SkillCard {...skill} key={skill.id} />
           ))}
       </div>
     </>
@@ -91,7 +97,7 @@ interface SkillCardProps {
 
 function SkillCard(props: SkillCardProps) {
   return (
-    <div className="bg-white border border-gray-200 p-2 rounded-sm flex flex-col shadow-sm">
+    <div className="flex flex-col p-2 bg-white border border-gray-200 rounded-sm shadow-sm">
       <div className="flex mb-2">
         <img
           src={props.icon}
@@ -101,7 +107,7 @@ function SkillCard(props: SkillCardProps) {
           className="mr-2"
         />
         <div>
-          <h2 className="font-bold text-sm">{props.name}</h2>
+          <h2 className="text-sm font-bold">{props.name}</h2>
           <p className="text-xs text-gray-500">
             Minimum weapon level: {props.level}
           </p>
@@ -109,20 +115,20 @@ function SkillCard(props: SkillCardProps) {
       </div>
       <div className="mt-auto space-y-2">
         <p className="text-sm">
-          <span className="text-amber-900 font-bold">Uncommon:</span>{" "}
+          <span className="font-bold text-amber-900">Uncommon:</span>{" "}
           <span className="font-bold">
             {props.probabilities.uncommon.map((prob) => `${prob}%`).join(", ")}
           </span>
         </p>
         <p className="text-sm">
-          <span className="text-green-900 font-bold">Rare:</span>{" "}
+          <span className="font-bold text-green-900">Rare:</span>{" "}
           <span className="font-bold">
             {props.probabilities.rare.map((prob) => `${prob}%`).join(", ")}
           </span>
         </p>
         {!props.probabilities.unique.length ? null : (
           <p className="text-sm">
-            <span className="text-red-600 font-bold">Unique:</span>{" "}
+            <span className="font-bold text-red-600">Unique:</span>{" "}
             <span className="font-bold">
               {props.probabilities.unique.map((prob) => `${prob}%`).join(", ")}
             </span>
