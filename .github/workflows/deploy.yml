@@ -43,7 +43,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v1.2
+        uses: nwtgck/actions-netlify@v2.0.0
         with:
           publish-dir: "./public"
           production-branch: main
@@ -52,8 +52,9 @@ jobs:
           enable-pull-request-comment: false
           enable-commit-comment: true
           overwrites-pull-request-comment: true
-          netlify-config-path: "netlify.toml"
+          netlify-config-path: "./netlify.toml"
           functions-dir: "./.netlify/functions-internal"
+          production-deploy: true
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_APP_ID }}

@@ -6,6 +6,7 @@ node_modules
 /test-results/
 /playwright-report/
 /playwright/.cache/
+/app/styles/app.css
 
 .netlify/*
 !.netlify/state.json
