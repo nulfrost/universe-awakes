@@ -24,9 +24,12 @@ jobs:
       - name: Run Playwright tests
         run: npx playwright test
 
-  build:
+  deploy:
     needs: test
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
@@ -48,7 +51,7 @@ jobs:
         with:
           publish-dir: "./public"
           production-branch: main
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.DEPLOY_TOKEN }}
           deploy-message: "Deploy from GitHub Actions"
           enable-pull-request-comment: false
           enable-commit-comment: false
