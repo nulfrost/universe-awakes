@@ -61,7 +61,6 @@ jobs:
           enable-commit-comment: false
           github-deployment-environment: staging
           netlify-config-path: "netlify.toml"
-          github-deployment-environment: staging
           functions-dir: "./.netlify/functions-internal"
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
