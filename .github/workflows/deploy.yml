@@ -49,7 +49,7 @@ jobs:
 
       - name: 🚀 Deploy Dev
         if: ${{ github.ref == 'refs/heads/dev' }}
-        run: ntl deploy --dir=public  --auth=$${{ secrets.NETLIFY_APP_ID }} --site=${{ secrets.NETLIFY_APP_ID }} --functions=./.netlify/functions-internal --build
+        run: ntl deploy --dir=public  --auth=${{ secrets.NETLIFY_AUTH_TOKEN }} --site=${{ secrets.NETLIFY_APP_ID }} --functions=./.netlify/functions-internal --build
 
       - name: 🚀 Deploy Production
         if: ${{ github.ref == 'refs/heads/main' }}
