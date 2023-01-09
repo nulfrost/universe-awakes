@@ -53,19 +53,4 @@ jobs:
 
       - name: 🚀 Deploy Production
         if: ${{ github.ref == 'refs/heads/main' }}
-        uses: nwtgck/actions-netlify@v1.2
-        with:
-          publish-dir: "./public"
-          production-branch: main
-          github-token: ${{ secrets.DEPLOY_TOKEN }}
-          deploy-message: "Deploy from GitHub Actions"
-          enable-pull-request-comment: false
-          enable-commit-comment: false
-          overwrites-pull-request-comment: true
-          netlify-config-path: "netlify.toml"
-          production-deploy: true
-          functions-dir: "./.netlify/functions-internal"
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_APP_ID }}
-        timeout-minutes: 2
+        run: ntl deploy --dir=public  --auth=${{ secrets.NETLIFY_AUTH_TOKEN }} --site=${{ secrets.NETLIFY_APP_ID }} --functions=./.netlify/functions-internal --build --prod
