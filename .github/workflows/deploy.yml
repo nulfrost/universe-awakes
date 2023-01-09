@@ -44,28 +44,14 @@ jobs:
         with:
           node-version: 16
 
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build
-        run: npm run build
-
       - name: 🚀 Deploy Dev
         if: ${{ github.ref == 'refs/heads/dev' }}
-        uses: nwtgck/actions-netlify@v1.2
+        uses: netlify/actions/cli@master
         with:
-          publish-dir: "./public"
-          github-token: ${{ secrets.DEPLOY_TOKEN }}
-          deploy-message: "Deploy from GitHub Actions"
-          enable-pull-request-comment: false
-          enable-commit-comment: false
-          github-deployment-environment: staging
-          netlify-config-path: "netlify.toml"
-          functions-dir: "./.netlify/functions-internal"
+          args: deploy --dir=public --functions=./.netlify/functions-internal --build
         env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_APP_ID }}
-        timeout-minutes: 1
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
 
       - name: 🚀 Deploy Production
         if: ${{ github.ref == 'refs/heads/main' }}
