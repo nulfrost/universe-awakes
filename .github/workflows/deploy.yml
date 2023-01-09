@@ -47,6 +47,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Build app
+        run: npm run build
+
       - name: 🚀 Deploy Dev
         if: ${{ github.ref == 'refs/heads/dev' }}
         uses: netlify/actions/cli@master
