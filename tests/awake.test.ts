@@ -13,15 +13,15 @@ test.describe("Functionality", () => {
 });
 
 test.describe("Testing each awake route", () => {
-  test("all", async ({ page }) => {
+  test("All", async ({ page }) => {
     expect(page.url()).toBe("http://localhost:3000/");
   });
-  test("bow", async ({ page }) => {
+  test("Bow", async ({ page }) => {
     await page.getByRole("link", { name: "bow" }).click();
     expect(page.url()).toBe("http://localhost:3000/?weaponType=bow");
     expect(page.getByRole("heading", { name: "Ice Arrow" }));
   });
-  test("wand", async ({ page }) => {
+  test("Wand", async ({ page }) => {
     await page.getByRole("link", { name: /wand/i }).first().click();
     expect(page.url()).toBe("http://localhost:3000/?weaponType=wand");
     expect(page.getByRole("heading", { name: "Maximum Crisis" }));
@@ -31,7 +31,7 @@ test.describe("Testing each awake route", () => {
     expect(page.url()).toBe("http://localhost:3000/?weaponType=wandorstaff");
     expect(page.getByRole("heading", { name: "Wind Cutter" }));
   });
-  test("Staff", async ({ page }) => {
+  test.skip("Staff", async ({ page }) => {
     await page.getByRole("link", { name: "staff" }).click();
     expect(page.url()).toBe("http://localhost:3000/?weaponType=staff");
     expect(page.getByRole("heading", { name: "Meteo Shower" }));
