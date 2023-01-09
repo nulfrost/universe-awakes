@@ -7,8 +7,6 @@
   port = 3000
 
 [functions]
-  directory = ".netlify/functions-internal"
-  node_bundler = "esbuild"
   external_node_modules = ["@remix-run/react"]
 
 [[redirects]]
