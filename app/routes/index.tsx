@@ -70,11 +70,13 @@ export default function Index() {
         placeholder="Search"
         aria-label="Start typing to filter results"
         type="text"
-        className="block w-full mb-2 text-sm border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+        className="block w-full mb-2 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
       />
       <div className="grid gap-2 md:grid-cols-2 xl:grid-cols-3">
         {awakes
-          ?.filter((skill) => skill.name.toLowerCase().includes(searchQuery))
+          ?.filter((skill) =>
+            skill.name.toLowerCase().includes(searchQuery.toLowerCase())
+          )
           .map((skill) => (
             <SkillCard {...skill} key={skill.id} />
           ))}

@@ -16,7 +16,7 @@ export function links() {
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "FlyFF Universe Awakes",
-  viewport: "width=device-width,initial-scale=1,maximum-scale=1",
+  viewport: "width=device-width,initial-scale=1",
 });
 
 export default function App() {
