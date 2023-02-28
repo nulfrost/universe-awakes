@@ -14,14 +14,20 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
+      
+      - name: Use PNPM
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
 
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: 16
+          cache: "pnpm"
 
       - name: Install dependencies
-        run: npm ci
+        run: pnpm install
 
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
@@ -39,13 +45,19 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
 
+     - name: Use PNPM
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
+
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: 16
+          cache: "pnpm"
 
       - name: Install dependencies
-        run: npm ci
+        run: pnpm install
 
       - name: 🚀 Deploy Dev
         if: ${{ github.ref == 'refs/heads/dev' }}
