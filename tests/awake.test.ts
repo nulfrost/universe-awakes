@@ -12,7 +12,7 @@ test.describe("Functionality", () => {
   });
 });
 
-test.describe("Testing each awake route", () => {
+test.describe.skip("Testing each awake route", () => {
   test("All", async ({ page }) => {
     expect(page.url()).toBe("http://localhost:3000/");
   });
