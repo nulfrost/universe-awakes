@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
-      
+
       - name: Use PNPM
         uses: pnpm/action-setup@v2
         with:
@@ -45,7 +45,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
 
-     - name: Use PNPM
+      - name: Use PNPM
         uses: pnpm/action-setup@v2
         with:
           version: 7
