@@ -1,12 +1,19 @@
 import { json, LoaderArgs } from "@remix-run/node";
-import { Link, useLoaderData, useLocation } from "@remix-run/react";
-import { useState } from "react";
+import {
+  Form,
+  NavLink,
+  useLoaderData,
+  useLocation,
+  useSubmit,
+} from "@remix-run/react";
+import { FormEvent, useRef } from "react";
 import awakes from "~/data/awake.json";
 
 export function loader({ request }: LoaderArgs) {
   // get weapon type from params
   const params = new URL(request.url).searchParams;
   const weaponType = params.get("weaponType") ?? "";
+  const searchTerm = params.get("q") ?? "";
 
   return json({
     awakes:
@@ -14,15 +21,17 @@ export function loader({ request }: LoaderArgs) {
         ? awakes.flatMap((skill) => skill.skillAwakes)
         : awakes.find((skill) => skill.weaponType === weaponType)?.skillAwakes,
     weaponType: new URL(request.url).search,
+    searchTerm,
   });
 }
 
 export default function Index() {
-  const { awakes, weaponType } = useLoaderData<typeof loader>();
+  const { awakes, weaponType, searchTerm } = useLoaderData<typeof loader>();
 
-  const [searchQuery, setSearchQuery] = useState("");
+  const submit = useSubmit();
 
   const location = useLocation();
+  const searchFormRef = useRef<HTMLFormElement | null>(null);
 
   return (
     <>
@@ -33,49 +42,73 @@ export default function Index() {
         <ul className="flex flex-col mb-4 md:justify-center md:flex-row">
           {[
             { label: "all", href: "/" },
-            { label: "bow", href: "?weaponType=bow" },
-            { label: "wand", href: "?weaponType=wand" },
-            { label: "wands and staves", href: "?weaponType=wandorstaff" },
-            { label: "staff", href: "?weaponType=staff" },
-            { label: "swords and axes", href: "?weaponType=swordoraxe" },
-            { label: "shield", href: "?weaponType=shield" },
-            { label: "yoyo", href: "?weaponType=yoyo" },
-            { label: "stick", href: "?weaponType=stick" },
-            { label: "knuckle", href: "?weaponType=knuckle" },
+            { label: "bow", href: "bow" },
+            { label: "wand", href: "wand" },
+            { label: "wands and staves", href: "wandorstaff" },
+            { label: "staff", href: "staff" },
+            { label: "swords and axes", href: "swordoraxe" },
+            { label: "shield", href: "shield" },
+            { label: "yoyo", href: "yoyo" },
+            { label: "stick", href: "stick" },
+            { label: "knuckle", href: "knuckle" },
           ].map(({ label, href }) => (
             <li key={JSON.stringify({ label, href })}>
-              <Link
-                to={`${href}`}
+              <NavLink
+                to={(() => {
+                  let params = new URLSearchParams(location.search);
+                  params.set("weaponType", href);
+                  if (href === "/") {
+                    params.delete("weaponType");
+                    params.delete("q");
+                  }
+                  return location.pathname + "?" + params.toString();
+                })()}
                 className={`${
-                  weaponType === href ||
+                  weaponType.split("=").at(1) === href ||
                   (href === "/" && location.search === "")
                     ? " bg-indigo-100 text-indigo-900"
                     : "text-gray-500"
                 } text-sm rounded-sm capitalize py-1 px-2 font-bold w-full inline-block text-center md:text-left`}
               >
                 <span> {label}</span>
-              </Link>
+              </NavLink>
             </li>
           ))}
         </ul>
       </nav>
-      <label htmlFor="search" className="sr-only">
-        Search
-      </label>
-      <input
-        onChange={(e) => setSearchQuery(e.target.value)}
-        autoFocus
-        name="search"
-        id="search"
-        placeholder="Search"
-        aria-label="Start typing to filter results"
-        type="text"
-        className="block w-full mb-2 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
-      />
-      <div className="grid gap-2 md:grid-cols-2 xl:grid-cols-3">
+      <Form
+        ref={searchFormRef}
+        action={(() => {
+          let params = new URLSearchParams(location.search);
+          return location.pathname + "?" + params.toString();
+        })()}
+        onChange={(event: FormEvent<HTMLFormElement>) => {
+          let params = new URLSearchParams(location.search);
+          let query = Array.from(event.currentTarget.elements).at(
+            0
+          ) as HTMLInputElement;
+          params.append("q", query.value);
+          submit(event.currentTarget, { method: "get", replace: true });
+        }}
+      >
+        <label htmlFor="search" className="sr-only">
+          Search
+        </label>
+        <input
+          autoFocus
+          name="q"
+          id="search"
+          placeholder="Search for a skill"
+          maxLength={130}
+          aria-label="Start typing to filter search results"
+          type="text"
+          className="block w-full mb-2 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+        />
+      </Form>
+      <div className="grid gap-2 md:grid-cols-2">
         {awakes
           ?.filter((skill) =>
-            skill.name.toLowerCase().includes(searchQuery.toLowerCase())
+            skill.name.toLowerCase().includes(searchTerm.toLowerCase())
           )
           .map((skill) => (
             <SkillCard {...skill} key={skill.id} />
